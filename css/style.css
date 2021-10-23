@@ -1,12 +1,3 @@
- /* :root{ 
-    color: #B200FF; /*First color for linear-gradients */
-    /* color: #3645F9; Second color for linear-gradients & Background-color for Nested Div */
-    /* color: #4400FF; Facebook Button */
-     /* color: #00C1F0; Twitter Button */
-    /* color: #000000; Title & Input Border */
-     /* color: #9F9F9F; /*Sub Title */  
-     /* color: #3AF86C;CheckBox & Login Button */
- /* }   */ 
 *{
     padding: 0;
     margin: 0;
@@ -22,7 +13,6 @@
     width: 100%;
     min-height: 100vh;
     background-image: linear-gradient(rgba(119, 74, 129 , .62),rgba(38 ,43, 84 , .82)),url(../img/Girl.png);
-    /* background-position:center ; */
     background-size: cover;
     padding: 10px 20px;
     position: relative;
@@ -31,9 +21,6 @@
     justify-content: center;
 }
 .content{
-    /* position: absolute;
-    top: 50%;
-    transform: translate(18%,-50%); */
     width: 65%;
     min-height: 50vh;
     display: flex;
